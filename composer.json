@@ -1,5 +1,5 @@
 {
-    "name": "endroid/qr-code",
+    "name": "superextend/qr-code",
     "description": "Endroid QR Code",
     "keywords": ["endroid", "qrcode", "qr", "code", "bundle", "php"],
     "homepage": "https://github.com/endroid/qr-code",
@@ -22,16 +22,16 @@
         "myclabs/php-enum": "^1.5"
     },
     "require-dev": {
-        "endroid/test": "dev-master"
+        "superextend/test": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Endroid\\QrCode\\": "src/"
+            "superextend\\QrCode\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Endroid\\QrCode\\Tests\\": "tests/"
+            "superextend\\QrCode\\Tests\\": "tests/"
         }
     },
     "config": {
