@@ -9,7 +9,7 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode;
+namespace superextend\QrCode;
 
 use BaconQrCode\Encoder\Encoder;
 use superextend\QrCode\Exception\InvalidPathException;
