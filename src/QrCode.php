@@ -12,9 +12,9 @@ declare(strict_types=1);
 namespace Endroid\QrCode;
 
 use BaconQrCode\Encoder\Encoder;
-use Endroid\QrCode\Exception\InvalidPathException;
-use Endroid\QrCode\Exception\UnsupportedExtensionException;
-use Endroid\QrCode\Writer\WriterInterface;
+use superextend\QrCode\Exception\InvalidPathException;
+use superextend\QrCode\Exception\UnsupportedExtensionException;
+use superextend\QrCode\Writer\WriterInterface;
 
 class QrCode implements QrCodeInterface
 {
