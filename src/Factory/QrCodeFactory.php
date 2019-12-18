@@ -9,13 +9,13 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode\Factory;
+namespace superextend\QrCode\Factory;
 
-use Endroid\QrCode\ErrorCorrectionLevel;
-use Endroid\QrCode\Exception\ValidationException;
-use Endroid\QrCode\QrCode;
-use Endroid\QrCode\QrCodeInterface;
-use Endroid\QrCode\WriterRegistryInterface;
+use superextend\QrCode\ErrorCorrectionLevel;
+use superextend\QrCode\Exception\ValidationException;
+use superextend\QrCode\QrCode;
+use superextend\QrCode\QrCodeInterface;
+use superextend\QrCode\WriterRegistryInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\PropertyAccess\PropertyAccess;
 

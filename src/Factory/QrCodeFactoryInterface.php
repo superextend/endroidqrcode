@@ -9,9 +9,9 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode\Factory;
+namespace superextend\QrCode\Factory;
 
-use Endroid\QrCode\QrCodeInterface;
+use superextend\QrCode\QrCodeInterface;
 
 interface QrCodeFactoryInterface
 {

@@ -9,11 +9,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode\Writer;
+namespace superextend\QrCode\Writer;
 
-use Endroid\QrCode\Exception\InvalidLogoException;
-use Endroid\QrCode\Exception\MissingExtensionException;
-use Endroid\QrCode\QrCodeInterface;
+use superextend\QrCode\Exception\InvalidLogoException;
+use superextend\QrCode\Exception\MissingExtensionException;
+use superextend\QrCode\QrCodeInterface;
 
 abstract class AbstractWriter implements WriterInterface
 {

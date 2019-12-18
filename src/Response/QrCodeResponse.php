@@ -9,9 +9,9 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode\Response;
+namespace superextend\QrCode\Response;
 
-use Endroid\QrCode\QrCodeInterface;
+use superextend\QrCode\QrCodeInterface;
 use Symfony\Component\HttpFoundation\Response;
 
 class QrCodeResponse extends Response

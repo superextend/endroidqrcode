@@ -9,9 +9,9 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode;
+namespace superextend\QrCode;
 
-use Endroid\QrCode\Writer\WriterInterface;
+use superextend\QrCode\Writer\WriterInterface;
 
 interface WriterRegistryInterface
 {

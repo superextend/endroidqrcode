@@ -1,8 +1,7 @@
 {
     "name": "superextend/qr-code",
-    "description": "Endroid QR Code",
-    "keywords": ["endroid", "qrcode", "qr", "code", "bundle", "php"],
-    "homepage": "https://github.com/endroid/qr-code",
+    "description": "superextend QR Code",
+    "keywords": ["superextend", "qrcode", "qr", "code", "bundle", "php"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,25 +20,13 @@
         "symfony/property-access": "^3.4||^4.0||^5.0",
         "myclabs/php-enum": "^1.5"
     },
-    "require-dev": {
-        "superextend/test": "dev-master"
-    },
+   
     "autoload": {
         "psr-4": {
             "superextend\\QrCode\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "superextend\\QrCode\\Tests\\": "tests/"
-        }
-    },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.x-dev"
-        }
     }
 }

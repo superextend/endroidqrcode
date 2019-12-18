@@ -9,15 +9,15 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode;
+namespace superextend\QrCode;
 
-use Endroid\QrCode\Exception\InvalidWriterException;
-use Endroid\QrCode\Writer\BinaryWriter;
-use Endroid\QrCode\Writer\DebugWriter;
-use Endroid\QrCode\Writer\EpsWriter;
-use Endroid\QrCode\Writer\PngWriter;
-use Endroid\QrCode\Writer\SvgWriter;
-use Endroid\QrCode\Writer\WriterInterface;
+use superextend\QrCode\Exception\InvalidWriterException;
+use superextend\QrCode\Writer\BinaryWriter;
+use superextend\QrCode\Writer\DebugWriter;
+use superextend\QrCode\Writer\EpsWriter;
+use superextend\QrCode\Writer\PngWriter;
+use superextend\QrCode\Writer\SvgWriter;
+use superextend\QrCode\Writer\WriterInterface;
 
 class WriterRegistry implements WriterRegistryInterface
 {

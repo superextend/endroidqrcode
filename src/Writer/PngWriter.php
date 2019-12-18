@@ -9,14 +9,14 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\QrCode\Writer;
+namespace superextend\QrCode\Writer;
 
-use Endroid\QrCode\Exception\GenerateImageException;
-use Endroid\QrCode\Exception\MissingFunctionException;
-use Endroid\QrCode\Exception\MissingLogoHeightException;
-use Endroid\QrCode\Exception\ValidationException;
-use Endroid\QrCode\LabelAlignment;
-use Endroid\QrCode\QrCodeInterface;
+use superextend\QrCode\Exception\GenerateImageException;
+use superextend\QrCode\Exception\MissingFunctionException;
+use superextend\QrCode\Exception\MissingLogoHeightException;
+use superextend\QrCode\Exception\ValidationException;
+use superextend\QrCode\LabelAlignment;
+use superextend\QrCode\QrCodeInterface;
 use Zxing\QrReader;
 
 class PngWriter extends AbstractWriter
